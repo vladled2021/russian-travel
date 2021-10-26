@@ -1,0 +1,18 @@
+.place {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: 1fr 460px;
+  grid-template-areas:
+  'place__title place__website'
+  'place__image place__paragraph-container';
+  column-gap: 48px;
+  row-gap: 40px;
+  align-items: start;
+  margin: 80px auto 0;
+  max-width: 984px;
+
+}
+
