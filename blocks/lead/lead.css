@@ -2,6 +2,12 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 76.875vw;
+  width: 100vw;
   max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
 }

@@ -12,3 +12,26 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 530px) {
+  .place__link {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place__link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .place__link {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__link {
+    font-size: 18px;
+  }
+}

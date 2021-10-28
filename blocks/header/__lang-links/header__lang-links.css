@@ -6,4 +6,14 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .header__lang-links {
+    margin: 46px 24px 6px 0;
+  }
+}
 
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    margin: 30px 16px 8px 0;
+  }
+}

@@ -14,3 +14,56 @@
 .place__paragraph:first-of-type {
   margin-top: 0;
 }
+
+@media screen and (max-width: 896px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+
+
+  .place__paragraph:last-of-type {
+    margin-top: 25px;
+  }
+
+  .place__paragraph:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .place__paragraph {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__paragraph {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .place__paragraph {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .place__paragraph {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+

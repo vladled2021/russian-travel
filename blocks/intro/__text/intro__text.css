@@ -4,11 +4,15 @@
   font-size: 16px;
   line-height: 163%;
   color: #FFFFFF;
-  max-width: 690px;
   margin-top: 40px;
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
 
 
 
