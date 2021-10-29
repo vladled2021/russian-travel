@@ -7,7 +7,6 @@
   color: #FFFFFF;
   max-width: 360px;
   margin: 32px auto 0;
-  z-index: 3;
 }
 
 @media screen and (max-width: 678px) {
@@ -25,13 +24,6 @@
 }
 
 @media screen and (max-width: 498px) {
-  .cover__subtitle {
-    font-size: 15px;
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 340px) {
   .cover__subtitle {
     font-size: 14px;
     margin-top: 16px;

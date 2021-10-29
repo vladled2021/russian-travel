@@ -56,14 +56,10 @@
 
 @media screen and (max-width: 425px) {
   .place__paragraph {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__paragraph {
     margin-right: 16px;
     margin-left: 16px;
+    font-size: 16px;
+    line-height: 163%;
   }
 }
 

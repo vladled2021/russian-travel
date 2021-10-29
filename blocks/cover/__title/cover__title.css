@@ -7,16 +7,15 @@
   color: #FFFFFF;
   margin-top: 245px;
   margin-bottom: 0;
-  z-index: 3;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
   .cover__title {
     margin-top: 195px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .cover__title {
     margin-top: 115px;
   }
@@ -37,20 +36,6 @@
 }
 
 @media screen and (max-width: 498px) {
-  .cover__title {
-    font-size: 48px;
-    margin-top: 67px;
-  }
-}
-
-@media screen and (max-width: 408px) {
-  .cover__title {
-    font-size: 40px;
-    margin-top: 51px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .cover__title {
     margin-top: 33px;
     font-size: 32px;
