@@ -5,26 +5,10 @@
   line-height: 122%;
   color: #FFFFFF;
   margin: 12px 0 0;
-  text-decoration: none;
+
 }
 
-.place__link:hover {
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 530px) {
-  .place__link {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .place__link {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 550px) {
   .place__link {
     font-size: 11px;
   }

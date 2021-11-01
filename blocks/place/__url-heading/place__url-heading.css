@@ -7,18 +7,12 @@
   color: #AAAAAA;
   margin-top: 0;
   margin-left: 0;
-  text-decoration: none;
+  margin-bottom: 0;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 550px) {
   .place__url-heading {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .place__url-heading {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 
