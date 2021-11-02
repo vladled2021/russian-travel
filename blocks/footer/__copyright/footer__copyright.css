@@ -8,6 +8,12 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 850px) {
+ .footer__copyright {
+    margin-top: 90px;
+  }
+}
+
 @media screen and (max-width: 691px) {
   .footer__copyright {
     margin-top: 48px;

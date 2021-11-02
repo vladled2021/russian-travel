@@ -8,6 +8,12 @@
   align-content: flex-start;
 }
 
+@media screen and (max-width: 850px) {
+  .footer__links {
+    margin-top: 88px;
+  }
+}
+
 @media screen and (max-width: 691px) {
   .footer__links {
     flex-direction: column;
