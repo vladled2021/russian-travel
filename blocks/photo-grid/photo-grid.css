@@ -32,7 +32,7 @@
     gap: 16px;
     max-width: calc(100% - 48px);
     margin-top: 88px;
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
 }
 
@@ -43,6 +43,5 @@
     gap: 12px;
     max-width: calc(100% - 32px);
     margin-top: 64px;
-    margin-bottom: 14px;
   }
 }

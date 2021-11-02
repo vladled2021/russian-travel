@@ -27,6 +27,10 @@
     column-gap: 28px;
     margin-top: 73px;
   }
+
+  .place:first-of-type {
+    margin-top: 88px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -34,7 +38,6 @@
     grid-template-columns: 320px 1fr;
     column-gap: 10px;
     row-gap: 10px;
-    margin-top: 73px;
   }
 }
 
@@ -80,4 +83,9 @@
     row-gap: 32px;
     margin-top: 50px;
   }
+
+  .place:first-of-type {
+    margin-top: 64px;
+  }
+
 }
